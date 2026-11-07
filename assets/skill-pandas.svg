@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+<style>
+  .b { fill: none; stroke: #e70488; stroke-width: 1.5; animation: pulso 3s ease-in-out infinite; animation-delay: 0.54s; }
+  @keyframes pulso { 0%,100% { stroke-opacity: .25 } 50% { stroke-opacity: 1 } }
+  .ic { animation: brilho 3s ease-in-out infinite; animation-delay: 0.54s; transform-origin: 56px 46px; }
+  @keyframes brilho { 0%,100% { opacity: .75; transform: scale(1) } 50% { opacity: 1; transform: scale(1.06) } }
+  .r { font: 11px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #c9d1d9; letter-spacing: .5px; }
+  .l { stroke: #e70488; stroke-width: 2; stroke-dasharray: 30 200; animation: volta 4s linear infinite; animation-delay: 0.54s; fill: none; }
+  @keyframes volta { to { stroke-dashoffset: -400 } }
+</style>
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="2" y="2" width="108" height="108" rx="14" fill="#0a0e14"/>
+<rect class="b" x="2" y="2" width="108" height="108" rx="14"/>
+<rect class="l" x="2" y="2" width="108" height="108" rx="14" filter="url(#g)"/>
+<g class="ic" filter="url(#g)"><path transform="translate(36 20) scale(1.65)" d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z" fill="#e70488"/></g>
+<text class="r" x="56" y="94" text-anchor="middle">pandas</text>
+</svg>

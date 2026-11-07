@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+<style>
+  .t { font: 14px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .c { animation: piscar 1s steps(1) infinite; }
+  @keyframes piscar { 50% { opacity: 0 } }
+</style>
+<rect width="900" height="200" rx="12" fill="#0a0e14" stroke="#30363d"/>
+<rect width="900" height="30" rx="12" fill="#161b22"/><rect y="18" width="900" height="12" fill="#161b22"/>
+<circle cx="22" cy="15" r="6" fill="#ff5f56"/><circle cx="42" cy="15" r="6" fill="#ffbd2e"/><circle cx="62" cy="15" r="6" fill="#27c93f"/>
+<text x="450" y="20" text-anchor="middle" class="t" fill="#8b949e" style="font-size:12px">gabriel@dados: ~</text>
+<clipPath id="l0"><rect x="24" y="47" height="20" width="0"><animate attributeName="width" from="0" to="75" begin="0.40s" dur="0.40s" fill="freeze"/></rect></clipPath><text x="26" y="62" fill="#8b949e" clip-path="url(#l0)" class="t">$ whoami</text><clipPath id="l1"><rect x="24" y="69" height="20" width="0"><animate attributeName="width" from="0" to="316" begin="1.15s" dur="1.08s" fill="freeze"/></rect></clipPath><text x="26" y="84" fill="#39ff14" clip-path="url(#l1)" class="t">tecnólogo em ADS · dados &amp; automação</text><clipPath id="l2"><rect x="24" y="91" height="20" width="0"><animate attributeName="width" from="0" to="126" begin="2.58s" dur="0.42s" fill="freeze"/></rect></clipPath><text x="26" y="106" fill="#8b949e" clip-path="url(#l2)" class="t">$ cat foco.txt</text><clipPath id="l3"><rect x="24" y="113" height="20" width="0"><animate attributeName="width" from="0" to="539" begin="3.35s" dur="1.86s" fill="freeze"/></rect></clipPath><text x="26" y="128" fill="#00e5ff" clip-path="url(#l3)" class="t">análise de dados · BI · engenharia de dados · automação com IA</text><clipPath id="l4"><rect x="24" y="135" height="20" width="0"><animate attributeName="width" from="0" to="144" begin="5.56s" dur="0.48s" fill="freeze"/></rect></clipPath><text x="26" y="150" fill="#8b949e" clip-path="url(#l4)" class="t">$ status --vagas</text><clipPath id="l5"><rect x="24" y="157" height="20" width="0"><animate attributeName="width" from="0" to="445" begin="6.39s" dur="1.53s" fill="freeze"/></rect></clipPath><text x="26" y="172" fill="#39ff14" clip-path="url(#l5)" class="t">● aberto a CLT júnior/pleno · remoto ou Salvador/BA</text>
+<text x="26" y="194" class="t" fill="#8b949e">$</text>
+<rect class="c" x="40" y="181" width="9" height="16" fill="#39ff14" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="8.27s" dur="0.01s" fill="freeze"/>
+</rect>
+</svg>

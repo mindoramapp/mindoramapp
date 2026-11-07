@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+<style>
+  .b { fill: none; stroke: #f37626; stroke-width: 1.5; animation: pulso 3s ease-in-out infinite; animation-delay: 1.26s; }
+  @keyframes pulso { 0%,100% { stroke-opacity: .25 } 50% { stroke-opacity: 1 } }
+  .ic { animation: brilho 3s ease-in-out infinite; animation-delay: 1.26s; transform-origin: 56px 46px; }
+  @keyframes brilho { 0%,100% { opacity: .75; transform: scale(1) } 50% { opacity: 1; transform: scale(1.06) } }
+  .r { font: 11px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #c9d1d9; letter-spacing: .5px; }
+  .l { stroke: #f37626; stroke-width: 2; stroke-dasharray: 30 200; animation: volta 4s linear infinite; animation-delay: 1.26s; fill: none; }
+  @keyframes volta { to { stroke-dashoffset: -400 } }
+</style>
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="2" y="2" width="108" height="108" rx="14" fill="#0a0e14"/>
+<rect class="b" x="2" y="2" width="108" height="108" rx="14"/>
+<rect class="l" x="2" y="2" width="108" height="108" rx="14" filter="url(#g)"/>
+<g class="ic" filter="url(#g)"><path transform="translate(36 20) scale(1.65)" d="M7.157 22.201A1.784 1.799 0 0 1 5.374 24a1.784 1.799 0 0 1-1.784-1.799 1.784 1.799 0 0 1 1.784-1.799 1.784 1.799 0 0 1 1.783 1.799zM20.582 1.427a1.415 1.427 0 0 1-1.415 1.428 1.415 1.427 0 0 1-1.416-1.428A1.415 1.427 0 0 1 19.167 0a1.415 1.427 0 0 1 1.415 1.427zM4.992 3.336A1.047 1.056 0 0 1 3.946 4.39a1.047 1.056 0 0 1-1.047-1.055A1.047 1.056 0 0 1 3.946 2.28a1.047 1.056 0 0 1 1.046 1.056zm7.336 1.517c3.769 0 7.06 1.38 8.768 3.424a9.363 9.363 0 0 0-3.393-4.547 9.238 9.238 0 0 0-5.377-1.728A9.238 9.238 0 0 0 6.95 3.73a9.363 9.363 0 0 0-3.394 4.547c1.713-2.04 5.004-3.424 8.772-3.424zm.001 13.295c-3.768 0-7.06-1.381-8.768-3.425a9.363 9.363 0 0 0 3.394 4.547A9.238 9.238 0 0 0 12.33 21a9.238 9.238 0 0 0 5.377-1.729 9.363 9.363 0 0 0 3.393-4.547c-1.712 2.044-5.003 3.425-8.772 3.425Z" fill="#f37626"/></g>
+<text class="r" x="56" y="94" text-anchor="middle">Jupyter</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+<style>
+  .b { fill: none; stroke: #ffffff; stroke-width: 1.5; animation: pulso 3s ease-in-out infinite; animation-delay: 2.16s; }
+  @keyframes pulso { 0%,100% { stroke-opacity: .25 } 50% { stroke-opacity: 1 } }
+  .ic { animation: brilho 3s ease-in-out infinite; animation-delay: 2.16s; transform-origin: 56px 46px; }
+  @keyframes brilho { 0%,100% { opacity: .75; transform: scale(1) } 50% { opacity: 1; transform: scale(1.06) } }
+  .r { font: 11px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #c9d1d9; letter-spacing: .5px; }
+  .l { stroke: #ffffff; stroke-width: 2; stroke-dasharray: 30 200; animation: volta 4s linear infinite; animation-delay: 2.16s; fill: none; }
+  @keyframes volta { to { stroke-dashoffset: -400 } }
+</style>
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="2" y="2" width="108" height="108" rx="14" fill="#0a0e14"/>
+<rect class="b" x="2" y="2" width="108" height="108" rx="14"/>
+<rect class="l" x="2" y="2" width="108" height="108" rx="14" filter="url(#g)"/>
+<g class="ic" filter="url(#g)"><path transform="translate(36 20) scale(1.65)" d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z" fill="#ffffff"/></g>
+<text class="r" x="56" y="94" text-anchor="middle">Next.js</text>
+</svg>

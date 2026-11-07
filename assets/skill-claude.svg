@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
+<style>
+  .b { fill: none; stroke: #d97757; stroke-width: 1.5; animation: pulso 3s ease-in-out infinite; animation-delay: 1.62s; }
+  @keyframes pulso { 0%,100% { stroke-opacity: .25 } 50% { stroke-opacity: 1 } }
+  .ic { animation: brilho 3s ease-in-out infinite; animation-delay: 1.62s; transform-origin: 56px 46px; }
+  @keyframes brilho { 0%,100% { opacity: .75; transform: scale(1) } 50% { opacity: 1; transform: scale(1.06) } }
+  .r { font: 11px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #c9d1d9; letter-spacing: .5px; }
+  .l { stroke: #d97757; stroke-width: 2; stroke-dasharray: 30 200; animation: volta 4s linear infinite; animation-delay: 1.62s; fill: none; }
+  @keyframes volta { to { stroke-dashoffset: -400 } }
+</style>
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="2" y="2" width="108" height="108" rx="14" fill="#0a0e14"/>
+<rect class="b" x="2" y="2" width="108" height="108" rx="14"/>
+<rect class="l" x="2" y="2" width="108" height="108" rx="14" filter="url(#g)"/>
+<g class="ic" filter="url(#g)"><path transform="translate(36 20) scale(1.65)" d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z" fill="#d97757"/></g>
+<text class="r" x="56" y="94" text-anchor="middle">Claude</text>
+</svg>
