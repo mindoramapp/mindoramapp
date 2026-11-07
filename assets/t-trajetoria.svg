@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56">
+<style>
+  .t { font: 700 20px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #e6edf3; letter-spacing: 3px; }
+  .p { font: 700 20px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #00e5ff; }
+  .lin { stroke: url(#gt); stroke-width: 2; stroke-dasharray: 6 6; animation: corre 3s linear infinite; }
+  @keyframes corre { to { stroke-dashoffset: -48 } }
+  .dot { fill: #00e5ff; animation: pis 1.6s ease-in-out infinite; }
+  @keyframes pis { 50% { opacity: .2 } }
+</style>
+<defs><linearGradient id="gt" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient></defs>
+<circle class="dot" cx="350" cy="26" r="5"/>
+<text x="450" y="33" text-anchor="middle"><tspan class="p">./</tspan><tspan class="t">trajetoria</tspan></text>
+<line class="lin" x1="60" y1="50" x2="840" y2="50"/>
+</svg>

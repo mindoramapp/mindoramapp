@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="130" viewBox="0 0 210 130">
+<style>
+  .t { font: 700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #e6edf3; }
+  .s { font: 11px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #8b949e; }
+  .k { font: 700 26px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #b14cff; }
+  .b { fill: none; stroke: #b14cff; stroke-width: 1.5; animation: pul 3s ease-in-out infinite 0.8s; }
+  @keyframes pul { 0%,100% { stroke-opacity: .25 } 50% { stroke-opacity: 1 } }
+  .sc { animation: varre 4s linear infinite 0.8s; }
+  @keyframes varre { from { transform: translateX(-80px) } to { transform: translateX(250px) } }
+</style>
+<defs><linearGradient id="gia" x1="0" x2="1"><stop offset="0" stop-color="#b14cff" stop-opacity="0"/><stop offset=".5" stop-color="#b14cff" stop-opacity=".22"/><stop offset="1" stop-color="#b14cff" stop-opacity="0"/></linearGradient>
+<clipPath id="cia"><rect x="2" y="2" width="206" height="126" rx="12"/></clipPath></defs>
+<rect x="2" y="2" width="206" height="126" rx="12" fill="#0a0e14"/>
+<g clip-path="url(#cia)"><rect class="sc" x="0" y="0" width="60" height="130" fill="url(#gia)"/></g>
+<rect class="b" x="2" y="2" width="206" height="126" rx="12"/>
+<text x="18" y="44" class="k">03</text>
+<text x="18" y="80" class="t">IA com verificação</text>
+<text x="18" y="102" class="s">nunca sem checagem</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+<style>
+  .w { animation: mar linear infinite alternate; }
+  @keyframes mar { from { transform: translateX(-60px) } to { transform: translateX(60px) } }
+  .t { font: 14px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #8b949e; }
+</style>
+<defs><clipPath id="cr"><rect width="900" height="120" rx="14"/></clipPath></defs>
+<g clip-path="url(#cr)"><rect width="900" height="120" fill="#0a0e14"/><path d="M0 70 Q 225 40 450 70 T 900 70" fill="none" stroke="#39ff14" stroke-width="2" stroke-opacity=".6" class="w" style="animation-duration:6s"/><path d="M0 78 Q 225 48 450 78 T 900 78" fill="none" stroke="#00e5ff" stroke-width="2" stroke-opacity=".6" class="w" style="animation-duration:8s"/><path d="M0 86 Q 225 56 450 86 T 900 86" fill="none" stroke="#b14cff" stroke-width="2" stroke-opacity=".6" class="w" style="animation-duration:10s"/></g>
+<text x="450" y="36" text-anchor="middle" class="t">obrigado pela visita · vamos conversar sobre dados?</text>
+</svg>

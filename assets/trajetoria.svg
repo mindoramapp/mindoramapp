@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<style>
+  .tipo { font: 700 12px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; letter-spacing: 2px; }
+  .desc { font: 15px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; fill: #e6edf3; }
+  .tag { font: 12px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; }
+  .it { opacity: 0; animation: entra .8s ease-out forwards; }
+  @keyframes entra { from { opacity: 0; transform: translateX(-16px) } to { opacity: 1; transform: none } }
+  .pulsa { animation: pul 2s ease-in-out infinite; }
+  @keyframes pul { 50% { opacity: .2 } }
+  .eixo { stroke: url(#ge); stroke-width: 2; stroke-dasharray: 240; stroke-dashoffset: 240; animation: desenha 2.6s ease-out forwards .2s; }
+  @keyframes desenha { to { stroke-dashoffset: 0 } }
+</style>
+<defs><linearGradient id="ge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39ff14"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#ffd43b"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="298" rx="14" fill="#0a0e14" stroke="#30363d"/>
+<line class="eixo" x1="60" y1="62" x2="60" y2="236"/>
+<g class="it" style="animation-delay:0.5s">
+  <circle cx="60" cy="62" r="9" fill="#0a0e14" stroke="#39ff14" stroke-width="2.5"/>
+  <circle cx="60" cy="62" r="4" fill="#39ff14" class="pulsa" style="animation-delay:0.5s"/>
+  <text x="90" y="56" class="tipo" fill="#39ff14">FORMAÇÃO</text>
+  <text x="90" y="76" class="desc">Tecnólogo em Análise e Desenvolvimento de Sistemas</text>
+  <rect x="730" y="48" width="130" height="26" rx="13" fill="none" stroke="#39ff14" stroke-opacity=".6"/>
+  <text x="795" y="66" text-anchor="middle" class="tag" fill="#39ff14">concluído</text>
+</g><g class="it" style="animation-delay:1.2s">
+  <circle cx="60" cy="120" r="9" fill="#0a0e14" stroke="#00e5ff" stroke-width="2.5"/>
+  <circle cx="60" cy="120" r="4" fill="#00e5ff" class="pulsa" style="animation-delay:1.2s"/>
+  <text x="90" y="114" class="tipo" fill="#00e5ff">EXPERIÊNCIA</text>
+  <text x="90" y="134" class="desc">Estágio em dados e automação · setor elétrico</text>
+  <rect x="730" y="106" width="130" height="26" rx="13" fill="none" stroke="#00e5ff" stroke-opacity=".6"/>
+  <text x="795" y="124" text-anchor="middle" class="tag" fill="#00e5ff">atual</text>
+</g><g class="it" style="animation-delay:1.9s">
+  <circle cx="60" cy="178" r="9" fill="#0a0e14" stroke="#b14cff" stroke-width="2.5"/>
+  <circle cx="60" cy="178" r="4" fill="#b14cff" class="pulsa" style="animation-delay:1.9s"/>
+  <text x="90" y="172" class="tipo" fill="#b14cff">PESQUISA</text>
+  <text x="90" y="192" class="desc">Laboratório de Oceanografia por Satélite · UFBA</text>
+  <rect x="730" y="164" width="130" height="26" rx="13" fill="none" stroke="#b14cff" stroke-opacity=".6"/>
+  <text x="795" y="182" text-anchor="middle" class="tag" fill="#b14cff">membro</text>
+</g><g class="it" style="animation-delay:2.5999999999999996s">
+  <circle cx="60" cy="236" r="9" fill="#0a0e14" stroke="#ffd43b" stroke-width="2.5"/>
+  <circle cx="60" cy="236" r="4" fill="#ffd43b" class="pulsa" style="animation-delay:2.5999999999999996s"/>
+  <text x="90" y="230" class="tipo" fill="#ffd43b">PRÓXIMO PASSO</text>
+  <text x="90" y="250" class="desc">Analista / Engenheiro de dados · CLT</text>
+  <rect x="730" y="222" width="130" height="26" rx="13" fill="none" stroke="#ffd43b" stroke-opacity=".6"/>
+  <text x="795" y="240" text-anchor="middle" class="tag" fill="#ffd43b">procurando</text>
+</g>
+</svg>
