@@ -69,6 +69,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.portfoliogabrielnunes.com/" title="Portfólio"><img src="https://img.shields.io/badge/portfólio-portfoliogabrielnunes.com-c6ff3d?style=for-the-badge&labelColor=0a0e14" alt="Portfólio: portfoliogabrielnunes.com"></a>
   <a href="mailto:gabrielnbn@hotmail.com" title="Enviar e-mail"><img src="https://img.shields.io/badge/contato-gabrielnbn%40hotmail.com-39ff14?style=for-the-badge&labelColor=0a0e14" alt="E-mail: gabrielnbn@hotmail.com"></a>
 </p>
 
