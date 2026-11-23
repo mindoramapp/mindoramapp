@@ -11,13 +11,13 @@
 <rect x="1" y="1" width="898" height="228" rx="14" fill="#0a0e14" stroke="#30363d"/>
 <text x="30" y="34" class="cab">// carregando próximas skills…</text>
 <g class="sp"><rect x="859" y="22" width="6" height="16" rx="3" fill="#39ff14"/></g>
-<text x="30" y="75" class="n">Orquestração de pipelines</text>
-<text x="300" y="75" class="f">Airflow</text>
+<text x="30" y="75" class="n">Contabilidade e finanças</text>
+<text x="300" y="75" class="f">Ciências Contábeis · UFBA</text>
 <rect x="510" y="63" width="360" height="12" rx="6" fill="#161b22"/>
 <rect x="510" y="63" width="0" height="12" rx="6" fill="#00e5ff" filter="url(#gl2)">
   <animate attributeName="width" values="0;223;223;0" keyTimes="0;.3;.92;1" dur="8s" begin="0.0s" repeatCount="indefinite"/>
-</rect><text x="30" y="115" class="n">Transformação e modelagem</text>
-<text x="300" y="115" class="f">dbt · modelagem dimensional</text>
+</rect><text x="30" y="115" class="n">IA aplicada a dados</text>
+<text x="300" y="115" class="f">RAG · LLMs locais</text>
 <rect x="510" y="103" width="360" height="12" rx="6" fill="#161b22"/>
 <rect x="510" y="103" width="0" height="12" rx="6" fill="#39ff14" filter="url(#gl2)">
   <animate attributeName="width" values="0;198;198;0" keyTimes="0;.3;.92;1" dur="8s" begin="0.3s" repeatCount="indefinite"/>
@@ -26,8 +26,8 @@
 <rect x="510" y="143" width="360" height="12" rx="6" fill="#161b22"/>
 <rect x="510" y="143" width="0" height="12" rx="6" fill="#ffd43b" filter="url(#gl2)">
   <animate attributeName="width" values="0;144;144;0" keyTimes="0;.3;.92;1" dur="8s" begin="0.6s" repeatCount="indefinite"/>
-</rect><text x="30" y="195" class="n">Processamento distribuído</text>
-<text x="300" y="195" class="f">Spark</text>
+</rect><text x="30" y="195" class="n">BI financeiro</text>
+<text x="300" y="195" class="f">indicadores contábeis</text>
 <rect x="510" y="183" width="360" height="12" rx="6" fill="#161b22"/>
 <rect x="510" y="183" width="0" height="12" rx="6" fill="#b14cff" filter="url(#gl2)">
   <animate attributeName="width" values="0;108;108;0" keyTimes="0;.3;.92;1" dur="8s" begin="0.8999999999999999s" repeatCount="indefinite"/>

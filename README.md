@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Tecnólogo em ADS. Foco: análise de dados, BI, engenharia de dados e automação com IA. Aberto a vagas CLT júnior/pleno, remoto ou Salvador/BA.">
+  <img src="assets/terminal.svg" width="100%" alt="Tecnólogo em ADS. Foco: análise de dados, BI, engenharia de dados e automação com IA. Aberto a vagas CLT júnior, remoto ou Salvador/BA.">
 </p>
 
 <p align="center"><img src="assets/t-pipeline.svg" width="100%" alt="como trabalho com dados"></p>
@@ -42,8 +42,17 @@
 
 <p align="center"><img src="assets/t-trajetoria.svg" width="100%" alt="trajetória"></p>
 <p align="center">
-  <img src="assets/trajetoria.svg" width="100%" alt="Formação: Tecnólogo em ADS. Experiência: estágio em dados e automação no setor elétrico. Pesquisa: Laboratório de Oceanografia por Satélite da UFBA. Próximo passo: analista ou engenheiro de dados CLT.">
+  <img src="assets/trajetoria.svg" width="100%" alt="Formação: Tecnólogo em ADS. Experiência: estágio em dados e automação na Neoenergia Coelba (análise de 15 para 2 minutos por nota) e estágio em Analytics Engineering na Indicium (dbt, BigQuery, Snowflake). Pesquisa: Laboratório de Oceanografia por Satélite da UFBA. Próximo passo: analista ou engenheiro de dados júnior CLT.">
 </p>
+
+
+<h3 align="center">Projetos em destaque</h3>
+
+| Projeto | O que mostra | Stack |
+|---|---|---|
+| [**ETL dos dados abertos do CNPJ**](https://github.com/mindoramapp/cnpj-aberto-etl) | 73,8 milhões de registros da Receita processados em fluxo num notebook de 8 GB | Python, SQLite, CI |
+| [**Orçaí: SaaS de orçamentos com assinatura**](https://github.com/mindoramapp/saas-assinatura) | RBAC no servidor, cobrança por webhooks idempotentes e métricas de negócio (MRR, churn, ativação) | Next.js, TypeScript, Prisma, Stripe |
+| [**Quadro branco colaborativo**](https://github.com/mindoramapp/quadro-branco-colaborativo) | Edição simultânea, offline-first e histórico de versões | React, Yjs, WebRTC, Docker |
 
 <p align="center"><img src="assets/t-principios.svg" width="100%" alt="princípios"></p>
 <p align="center"><sub>passe o mouse sobre cada cartão</sub></p>
@@ -56,11 +65,11 @@
 
 <p align="center"><img src="assets/t-estudando.svg" width="100%" alt="estudando agora"></p>
 <p align="center">
-  <img src="assets/estudando.svg" width="100%" alt="Estudando agora: orquestração com Airflow, dbt e modelagem dimensional, cloud para dados (AWS e Azure) e Spark.">
+  <img src="assets/estudando.svg" width="100%" alt="Estudando agora: Ciências Contábeis na UFBA, cloud para dados (AWS e Azure), IA aplicada a dados (RAG e LLMs locais) e BI financeiro.">
 </p>
 
 <p align="center">
-  <a href="mailto:gabrielnbn@ufba.br" title="Enviar e-mail"><img src="https://img.shields.io/badge/contato-gabrielnbn%40ufba.br-39ff14?style=for-the-badge&labelColor=0a0e14" alt="E-mail: gabrielnbn@ufba.br"></a>
+  <a href="mailto:gabrielnbn@hotmail.com" title="Enviar e-mail"><img src="https://img.shields.io/badge/contato-gabrielnbn%40hotmail.com-39ff14?style=for-the-badge&labelColor=0a0e14" alt="E-mail: gabrielnbn@hotmail.com"></a>
 </p>
 
 <p align="center"><img src="assets/rodape.svg" width="100%" alt="Obrigado pela visita"></p>
